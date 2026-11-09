@@ -1,0 +1,15 @@
+.equ PMC_BASE, 	0xFFFFFC00	/* Power Management Controller */
+							/* Base Address */
+.equ PMC_PCER, 	0x10  		/* Peripheral Clock Enable Register */
+
+.equ TC0_BASE, 	0xFFFA0000	/* TC0 Channel Base Address */
+.equ TC_CCR, 	0x00  		/* TC0 Channel Control Register */
+.equ TC_CMR, 	0x04	  	/* TC0 Channel Mode Register*/
+.equ TC_CV,    	0x10		/* TC0 Counter Value */
+.equ TC_RA,    	0x14		/* TC0 Register A */
+.equ TC_RB,    	0x18		/* TC0 Register B */
+.equ TC_RC,    	0x1C		/* TC0 Register C */
+.equ TC_SR,    	0x20		/* TC0 Status Register */
+.equ TC_IER,   	0x24		/* TC0 Interrupt Enable Register*/
+.equ TC_IDR,   	0x28		/* TC0 Interrupt Disable Register */
+.equ TC_IMR,  	0x2C		/* TC0 Interrupt Mask Register */

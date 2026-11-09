@@ -1,0 +1,10 @@
+.equ DBGU_RPR,  0x100 	/* Receive Pointer Register */
+.equ DBGU_RCR,  0x104 	/* Receive Counter Register */
+.equ DBGU_TPR,  0x108 	/* Transmit Pointer Register */
+.equ DBGU_TCR,  0x10C 	/* Transmit Counter Register */
+.equ DBGU_RNPR, 0x110 	/* Receive Next Pointer Register */
+.equ DBGU_RNCR, 0x114 	/* Receive Next Counter Register */
+.equ DBGU_TNPR, 0x118 	/* Transmit Next Pointer Register */
+.equ DBGU_TNCR, 0x11C 	/* Transmit Next Counter Register */
+.equ DBGU_PTCR, 0x120 	/* Periph. Transfer Control Register */
+.equ DBGU_PTSR, 0x124 	/* Periph. Transfer Status Register */

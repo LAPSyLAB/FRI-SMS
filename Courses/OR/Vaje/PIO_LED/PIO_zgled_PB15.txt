@@ -1,0 +1,14 @@
+			.equ PIOB_BASE, 0xFFFFF600 /* Začetni naslov registrov za PIOB */
+			.equ PIO_PER, 0x00	/* Odmiki... */
+			.equ PIO_OER, 0x10
+			.equ PIO_SODR, 0x30
+			.equ PIO_CODR, 0x34
+
+			ldr r0, =PIOB_BASE
+			mov r1, #1 << 15
+			str r1, [r0, #PIO_PER]	/* Priključek B15 krmili PIO */
+			str r1, [r0, #PIO_OER]	/* Omogoči izhod na B15 */
+
+			str r1, [r0, #PIO_SODR]	/* Na priključek B15 zapiši stanje 1 */
+			str r1, [r0, #PIO_CODR]	/* Na priključek B15 zapiši stanje 0 */
+

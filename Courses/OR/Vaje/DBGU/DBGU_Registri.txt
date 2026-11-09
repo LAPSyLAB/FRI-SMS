@@ -1,0 +1,10 @@
+.equ DBGU_BASE, 0xFFFFF200	/* Debug Unit Base Address */
+.equ DBGU_CR, 0x00  		/* DBGU Control Register */
+.equ DBGU_MR, 0x04	  	/* DBGU Mode Register*/
+.equ DBGU_IER, 0x08		/* DBGU Interrupt Enable Register*/
+.equ DBGU_IDR, 0x0C		/* DBGU Interrupt Disable Register */
+.equ DBGU_IMR, 0x10		/* DBGU Interrupt Mask Register */
+.equ DBGU_SR,   0x14		/* DBGU Status Register */
+.equ DBGU_RHR, 0x18		/* DBGU Receive Holding Register */
+.equ DBGU_THR, 0x1C		/* DBGU Transmit Holding Register */
+.equ DBGU_BRGR, 0x20		/* DBGU Baud Rate Generator Register */
